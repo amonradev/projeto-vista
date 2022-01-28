@@ -1,0 +1,13 @@
+body {
+    --cor-principal: #f25955
+}
+
+.global-font {
+    color: var(--cor-principal);
+}
+.white-font {
+    color: #fff;
+}
+.global-bg {
+    background-color: var(--cor-principal);
+}
