@@ -2,8 +2,16 @@ body {
     --cor-principal: #f25955
 }
 
+header {
+    border: 0 !important;
+}
+
 .global-font {
-    color: var(--cor-principal);
+    color: var(--cor-principal) !important;
+}
+.global-button {
+    color: #fff !important;
+    background-color: var(--cor-principal) !important;
 }
 .white-font {
     color: #fff;
@@ -11,4 +19,19 @@ body {
 }
 .global-bg {
     background-color: var(--cor-principal);
+}
+.nav > i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+.nav {
+    align-items: center;
+    margin-left: 4rem;
+}
+.nav-item > .nav-link {
+    font-size: 16px;
+    color: gray;
+}
+.nav-item > .global-font {
+    font-weight: 500 !important;
 }
