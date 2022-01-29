@@ -136,7 +136,27 @@ article {
 }
 .btn-venda {
     width: 100% !important;
+    margin-bottom: 20px;
 }
 .bottom-lower-btn {
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-lower-btn > .col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-lower-btn > .col-3 > i {
+    font-size: 30px !important;
+}
+
+.bottom-lower-btn > .col-3 > span {
+    color: gray;
+    width: max-content;
+    font-size: 17px;
+    margin-top: 5px;
+}
+#aVenda, #alugar {
+    margin-top: 100px;
 }

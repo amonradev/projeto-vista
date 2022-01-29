@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav class="py-2 global-bg border-bottom">
             <div class="container d-flex flex-wrap">
                 <ul class="nav white-font">
@@ -40,12 +40,12 @@
                 <span style="font-size: 37px !important;" class="fs-4">I<span
                         class="global-font">M</span>OBILIÁRIA</span>
                 <ul class="nav">
-                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a>
+                    <li class="nav-item"><a href="#home" class="nav-link link-dark px-2 active" aria-current="page">Home</a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 global-font">Destaque</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Alugar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Comprar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Contato</a></li>
+                    <li class="nav-item"><a href="#ambiente" class="nav-link px-2 global-font">Destaque</a></li>
+                    <li class="nav-item"><a href="#alugar" class="nav-link link-dark px-2">Alugar</a></li>
+                    <li class="nav-item"><a href="#aVenda" class="nav-link link-dark px-2">Comprar</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link link-dark px-2">Contato</a></li>
                 </ul>
         </div>
     </header>
@@ -180,23 +180,168 @@
                         <h1 class="preco-venda global-font">R$ 400.000,00</h1>
                         <button class="btn global-button btn-venda">Ver Imóvel</button>
                         <div class="row d-flex bottom-lower-btn">
-                            <i class="fas fa-bed"></i>
-                            <i class="fas fa-warehouse"></i>
-                            <i class="fas fa-home"></i>
+                            <div class="col-3">
+                                <i class="fas fa-bed"></i>
+                                <span>1</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-warehouse"></i>
+                                <span>4</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-home"></i>
+                                <span>180 m²</span>
+                            </div>
                         </div>
                     </div>
                 </article>
                 <article>
                     <img class="card-img" src="../img/campeche.jpg" />
-                    <h1 class="venda-h1 global-font">
-                        Casa com 3 quartos no Campeche com ótima vista
-                    </h1>
+                    <div class="container-infos-vendas">
+                        <h1 class="venda-h1 global-font">
+                            Casa com 3 quartos no Campeche com ótima vista
+                        </h1>
+                        <h2 class="venda-h2">Imóvel Residencial</h2>
+                        <h3><a href="#" class="text-decoration-none venda-h3">Apartamento - Campeche <i
+                                    class="fas fa-location-arrow"></i></a></h3>
+                        <h1 class="preco-venda global-font">R$ 400.000,00</h1>
+                        <button class="btn global-button btn-venda">Ver Imóvel</button>
+                        <div class="row d-flex bottom-lower-btn">
+                            <div class="col-3">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-warehouse"></i>
+                                <span>3</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-home"></i>
+                                <span>80 m²</span>
+                            </div>
+                        </div>
+                    </div>
                 </article>
                 <article>
                     <img class="card-img" src="../img/apartamentoPredio.jpg" />
-                    <h1 class="venda-h1 global-font">
-                        Apartamento no prédio XPTO com vista para a Lagoa
-                    </h1>
+                    <div class="container-infos-vendas">
+                        <h1 class="venda-h1 global-font">
+                            Apartamento no prédio XPTO com vista para a Lagoa
+                        </h1>
+                        <h2 class="venda-h2">Imóvel Residencial</h2>
+                        <h3><a href="#" class="text-decoration-none venda-h3">Apartamento - Campeche <i
+                                    class="fas fa-location-arrow"></i></a></h3>
+                        <h1 class="preco-venda global-font">R$ 400.000,00</h1>
+                        <button class="btn global-button btn-venda">Ver Imóvel</button>
+                        <div class="row d-flex bottom-lower-btn">
+                            <div class="col-3">
+                                <i class="fas fa-bed"></i>
+                                <span>3</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-warehouse"></i>
+                                <span>4</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-home"></i>
+                                <span>200 m²</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+            </section>
+        <section id="alugar">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10 title-venda d-flex">
+                    <h1 class="global-font">Para Alugar</h1>
+                    <a href="#" class="text-decoration-none ver-mais"><span class="global-font span-ver-mais">Ver
+                            mais</span></a>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <section id="cards-venda" class="cards-images">
+                <article>
+                    <img class="card-img" src="../img/casaRioTavares.jpg" />
+                    <div class="container-infos-vendas">
+                        <h1 class="venda-h1 global-font">
+                            Linda Casa no Rio Tavares com vista para o Mar
+                        </h1>
+                        <h2 class="venda-h2">Imóvel Residencial</h2>
+                        <h3><a href="#" class="text-decoration-none venda-h3">Apartamento - Campeche <i
+                                    class="fas fa-location-arrow"></i></a></h3>
+                        <h1 class="preco-venda global-font">R$ 2.300,00/mês</h1>
+                        <button class="btn global-button btn-venda">Ver Imóvel</button>
+                        <div class="row d-flex bottom-lower-btn">
+                            <div class="col-3">
+                                <i class="fas fa-bed"></i>
+                                <span>1</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-warehouse"></i>
+                                <span>4</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-home"></i>
+                                <span>180 m²</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <img class="card-img" src="../img/campeche.jpg" />
+                    <div class="container-infos-vendas">
+                        <h1 class="venda-h1 global-font">
+                            Casa com 3 quartos no Campeche com ótima vista
+                        </h1>
+                        <h2 class="venda-h2">Imóvel Residencial</h2>
+                        <h3><a href="#" class="text-decoration-none venda-h3">Apartamento - Campeche <i
+                                    class="fas fa-location-arrow"></i></a></h3>
+                        <h1 class="preco-venda global-font">R$ 1.800,00/mês</h1>
+                        <button class="btn global-button btn-venda">Ver Imóvel</button>
+                        <div class="row d-flex bottom-lower-btn">
+                            <div class="col-3">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-warehouse"></i>
+                                <span>3</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-home"></i>
+                                <span>80 m²</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <img class="card-img" src="../img/apartamentoPredio.jpg" />
+                    <div class="container-infos-vendas">
+                        <h1 class="venda-h1 global-font">
+                            Apartamento no prédio XPTO com vista para a Lagoa
+                        </h1>
+                        <h2 class="venda-h2">Imóvel Residencial</h2>
+                        <h3><a href="#" class="text-decoration-none venda-h3">Apartamento - Campeche <i
+                                    class="fas fa-location-arrow"></i></a></h3>
+                        <h1 class="preco-venda global-font">R$ 4.000,00/mês</h1>
+                        <button class="btn global-button btn-venda">Ver Imóvel</button>
+                        <div class="row d-flex bottom-lower-btn">
+                            <div class="col-3">
+                                <i class="fas fa-bed"></i>
+                                <span>3</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-warehouse"></i>
+                                <span>4</span>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-home"></i>
+                                <span>200 m²</span>
+                            </div>
+                        </div>
+                    </div>
 
                 </article>
             </section>
