@@ -96,3 +96,25 @@
 .margin-infos > .col-4 {
     margin-top: 20px;
 }
+.estrutura {
+    margin-top: 25px !important;
+}
+.btn-estrutura {
+    background-color: #36ba9b !important;
+    color: #fff !important;
+    border: 1px solid #ffffff !important;
+}
+.margin-buttons-estrutura {
+    margin-top: 20px !important;
+}
+.margin-buttons-estrutura > .col-3 {
+    margin-left: 10px !important;
+    padding: 0 !important;
+    width: max-content;
+}
+.localizacao {
+    margin-top: 50px !important;
+}
+.iframe {
+    margin-top: 20px;
+}
