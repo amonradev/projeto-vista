@@ -27,3 +27,48 @@
     top: 50px;
     position: relative;
 }
+.buttons-with-select {
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bottom-buttons-with-select {
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.filtro-avançado {
+    margin-left: 1.9rem;
+}
+.button-pesquisar {
+    float: right;
+}
+.title-ambiente {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--cor-principal);
+
+}
+#ambiente {
+    margin-top: 100px;
+}
+.title-ambiente > h1 {
+    font-weight: 400;
+}
+.title-ambiente > h4 {
+    color: gray;
+    font-weight: 400;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+#ambiente > .row > .col-1 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container-top-margin {
+    margin-top: 35px;
+    flex-direction: column !important;
+}
+.re-sized-img {
+    width: inherit;
+    height: inherit;
+}
