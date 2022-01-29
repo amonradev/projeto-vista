@@ -72,3 +72,37 @@ header {
 .gray {
     color: gray;
 }
+#contato > .row {
+    margin: 50px;
+}
+h1 {
+    font-weight: 400 !important;
+}
+h4 {
+    font-weight: 400 !important;
+}
+.navegue, .conheca, .investir {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+    padding-bottom: 5px;
+}
+#contato > .row > .col-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#contato > .row > .col-2 > a {
+    width: 25%;
+}
+#contato > .row > .col-6 .col-12{
+    margin-bottom: 15px !important;
+}
+#contato > .row > .col-1 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.h4-text {
+    font-size: 18px;
+}
