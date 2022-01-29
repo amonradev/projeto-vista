@@ -1,0 +1,20 @@
+.sub-detalhe {
+    font-weight: 400 !important;
+    font-size: 18px;
+}
+.bg-image-principal {
+    width: 100%;
+    height: 83%;
+}
+.bg-image-principal > img {
+    width: inherit;
+    height: inherit;
+}
+.whatsappButton {
+    border: 0.5px solid #2aa845;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #2aa845;
+    width: 100%;
+    height: 40px;
+}
