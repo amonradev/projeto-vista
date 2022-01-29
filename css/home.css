@@ -45,7 +45,7 @@
 .title-ambiente {
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid var(--cor-principal);
+    border-bottom: 2px solid #f25a5579;
 
 }
 #ambiente {
@@ -68,7 +68,32 @@
     margin-top: 35px;
     flex-direction: column !important;
 }
-.re-sized-img {
-    width: inherit;
-    height: inherit;
+.cards-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 75px;
+    max-width: 1150px;
+    margin: 0 auto 30px;
+}
+article {
+    position: relative;
+}
+  
+.card-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(15%) grayscale(15%);
+}
+  
+.img-title {
+    position: relative;
+    text-align: center;
+    bottom: 50%;
+    font-size: 21px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+#cardImages {
+    margin-top: 40px;
 }
