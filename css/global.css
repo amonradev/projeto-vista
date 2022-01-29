@@ -106,3 +106,6 @@ h4 {
 .h4-text {
     font-size: 18px;
 }
+.min-content {
+    height: min-content;
+}
