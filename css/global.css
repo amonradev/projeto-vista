@@ -35,3 +35,40 @@ header {
 .nav-item > .global-font {
     font-weight: 500 !important;
 }
+#newsletter {
+    background-color: #343a41;
+    margin-top: 60px;
+}
+#newsletter > .row {
+    flex-direction: column !important;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#newsletter > .row > .col-9 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#newsletter > .row > .col-9 > .col-12 > h1 {
+    color: #fff;
+}
+#newsletter > .row > .col-9 > .col-9 > h4 {
+    color: #fff;
+    font-size: 1.375rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#newsletter> .row > .col-9 > .col-6 {
+    padding-top: 10px;
+}
+.button-newsletter {
+    width: 100%;
+}
+.contacts-div {
+    flex-direction: column;
+}
+.gray {
+    color: gray;
+}
