@@ -1,3 +1,22 @@
+@media (max-width: 720px) {
+    #destaque > .row > .col-3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        margin-top: 25px;
+    }
+    .bg-image-principal {
+        width: 120% !important;
+    }
+    #destaque {
+        margin-top: 2.2rem !important;
+    }
+    iframe {
+        max-width: 345px !important;
+    }
+}
 .sub-detalhe {
     font-weight: 400 !important;
     font-size: 18px;
