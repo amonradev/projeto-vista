@@ -1,3 +1,18 @@
+@media (max-width: 720px) {
+    .container-sobreposto {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+    }
+    .select-filtros {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .filtro-avançado {
+        margin-left: 0 !important;
+    }
+}
 .imagem-principal {
     margin-bottom: 30px;
     height: 500px;

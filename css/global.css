@@ -14,6 +14,18 @@ body::-webkit-scrollbar-thumb {
     background: var(--cor-principal);
   }
 
+@media (max-width: 720px) {
+    .nav-item > .me-lg-auto {
+        display: none !important;
+    }
+    #contato > .row > .col-3 {
+        margin-right: 35px;
+    }
+    #contato > .row > .col-2 {
+        width: 100%;
+        margin-top: 20px !important;
+    }
+}
 header {
     border: 0 !important;
 }
